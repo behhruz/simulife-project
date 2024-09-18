@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import { FaChartLine, FaBuilding, FaDollarSign, FaUser, FaHome } from 'react-icons/fa';
+import { FaChartLine, FaBuilding, FaDollarSign, FaUser, FaListAlt } from 'react-icons/fa'; // Updated import
 import './styles.css';
-import Home from './pages/Home'; 
+import Home from './pages/Home';
 import Investments from './pages/Investments';
 import Business from './pages/Business';
 import Earnings from './pages/Earnings';
@@ -22,7 +22,7 @@ function App() {
 
         <nav className="bottom-nav">
           <Link to="/">
-            <FaHome />
+            <FaListAlt />
             <span>Предметы</span>
           </Link>
           <Link to="/investments">

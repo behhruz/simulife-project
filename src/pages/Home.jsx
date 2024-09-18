@@ -1,12 +1,8 @@
 import React from 'react';
 import '../styles.css';
 
-const Home = () => {
-  return (
-    <div>
-      <h1>Добро пожаловать</h1>
-    </div>
-  );
-};
+function Home() {
+  return <div>Welcome to Page</div>;
+}
 
 export default Home;
