@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import { FaChartLine, FaBuilding, FaDollarSign, FaUser } from 'react-icons/fa';
+import { FaChartLine, FaBuilding, FaDollarSign, FaUser, FaHome } from 'react-icons/fa';
 import './styles.css';
+import Home from './pages/Home'; 
 import Investments from './pages/Investments';
 import Business from './pages/Business';
 import Earnings from './pages/Earnings';
@@ -12,14 +13,18 @@ function App() {
     <Router>
       <div className="container">
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/investments" element={<Investments />} />
           <Route path="/business" element={<Business />} />
           <Route path="/earnings" element={<Earnings />} />
           <Route path="/profile" element={<Profile />} />
-          <Route path="/" element={<Investments />} />
         </Routes>
 
         <nav className="bottom-nav">
+          <Link to="/">
+            <FaHome />
+            <span>Главная</span>
+          </Link>
           <Link to="/investments">
             <FaChartLine />
             <span>Инвестиции</span>
