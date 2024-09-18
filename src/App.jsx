@@ -23,7 +23,7 @@ function App() {
         <nav className="bottom-nav">
           <Link to="/">
             <FaHome />
-            <span>Главная</span>
+            <span>Предметы</span>
           </Link>
           <Link to="/investments">
             <FaChartLine />
