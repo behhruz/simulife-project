@@ -2,12 +2,12 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 // Получение списка пользователей
 export const fetchUsers = createAsyncThunk('users/fetchUsers', async () => {
-  const response = await fetch('http://localhost:5001/Users'); // Заглавная "U"
+  const response = await fetch('http://localhost:5001/users'); // Заглавная "U"
   return response.json();
 });
 
 export const updateUser = createAsyncThunk('users/updateUser', async (userData) => {
-  const response = await fetch(`http://localhost:5001/Users/${userData.id}`, { // Заглавная "U"
+  const response = await fetch(`http://localhost:5001/users/${userData.id}`, { // Заглавная "U"
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json',
