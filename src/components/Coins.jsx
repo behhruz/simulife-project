@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import FunctionLeft from '../Function/FunctionLeft';
 
 const Coins = () => {
-  const [activeContent, setActiveContent] = useState(null); // Faol kontentni saqlash
+  const [activeContent, setActiveContent] = useState(null); 
 
   const handleClickRinok = () => {
-    setActiveContent('rinok'); // "Ренок" bosilganda "rinok" kontenti faol bo'ladi
+    setActiveContent('rinok'); 
   };
 
   const handleClickCollection = () => {
-    setActiveContent('collection'); // "Моя коллекция" bosilganda "collection" kontenti faol bo'ladi
+    setActiveContent('collection'); 
   };
 
   return (

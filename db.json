@@ -1,0 +1,217 @@
+{
+  "finance": [
+    {
+      "id": "a527",
+      "trendName": "Nasdaq Composite",
+      "quantity": 5,
+      "totalPrice": 87960.63500000001,
+      "email": "dilbek@gmail.com",
+      "price": 17683.977
+    },
+    {
+      "id": "3075",
+      "trendName": "Dow Jones Industrial Average",
+      "quantity": 2,
+      "totalPrice": 83244.16,
+      "email": "dilbek@gmail.com",
+      "price": 41622.08
+    },
+    {
+      "id": "3d1f",
+      "trendName": "S&P 500",
+      "quantity": 2,
+      "totalPrice": 11266.18,
+      "email": "dilbek@gmail.com",
+      "price": 5633.09
+    },
+    {
+      "id": "97c1",
+      "trendName": "Dow Jones Industrial Average",
+      "quantity": 1,
+      "totalPrice": 41606.18,
+      "email": null,
+      "price": 41606.18
+    },
+    {
+      "id": "6c3c",
+      "trendName": "S&P 500",
+      "quantity": 1,
+      "totalPrice": 5634.58,
+      "email": null,
+      "price": 5634.58
+    }
+  ],
+  "estate": [
+    {
+      "id": "1",
+      "url": "https://img.freepik.com/free-photo/blue-house-with-blue-roof-sky-background_1340-25953.jpg",
+      "price": 52000,
+      "location": "Meksika",
+      "perhour": 840
+    },
+    {
+      "id": "15t",
+      "url": "https://img.freepik.com/free-photo/3d-house-model-with-modern-architecture_23-2151004049.jpg",
+      "price": 32000,
+      "location": "Lublin Poland",
+      "perhour": 630
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "Balance": 35,
+      "Level": 1,
+      "ForClick": 1
+    },
+    {
+      "id": "bdf4",
+      "email": "d",
+      "password": "12",
+      "price": 1654000
+    },
+    {
+      "id": "601c",
+      "email": "behruz@gmail.com",
+      "password": "behruz2005"
+    },
+    {
+      "id": "fe95",
+      "email": "nurik@gmail.com",
+      "password": "nurik1347",
+      "price": 0
+    }
+  ],
+  "token": [
+    {
+      "id": "bc9e",
+      "estateId": "1",
+      "buyerEmail": "dilbek@gmail.com",
+      "originalPrice": 52000,
+      "discountedPrices": {
+        "Carry": 52000,
+        "Improve": 20800,
+        "Wire": 10400,
+        "Furniture": 15600,
+        "Parking": 10400
+      },
+      "estateName": "Meksika",
+      "estatePrice": 840,
+      "url": "https://img.freepik.com/free-photo/blue-house-with-blue-roof-sky-background_1340-25953.jpg"
+    },
+    {
+      "id": "2f5e",
+      "estateId": "1",
+      "buyerEmail": "d",
+      "originalPrice": 52000,
+      "discountedPrices": {
+        "Carry": 52000,
+        "Improve": 20800,
+        "Wire": 10400,
+        "Furniture": 15600,
+        "Parking": 10400
+      },
+      "estateName": "Meksika",
+      "estatePrice": 1670,
+      "url": "https://img.freepik.com/free-photo/blue-house-with-blue-roof-sky-background_1340-25953.jpg"
+    },
+    {
+      "id": "c09c",
+      "estateId": "15t",
+      "buyerEmail": "d",
+      "originalPrice": 32000,
+      "discountedPrices": {
+        "Carry": 32000,
+        "Improve": 12800,
+        "Wire": 6400,
+        "Furniture": 9600,
+        "Parking": 6400
+      },
+      "estateName": "Lublin Poland",
+      "estatePrice": 1480,
+      "url": "https://img.freepik.com/free-photo/3d-house-model-with-modern-architecture_23-2151004049.jpg"
+    },
+    {
+      "id": "8fc7",
+      "estateId": "1",
+      "buyerEmail": "d",
+      "originalPrice": 52000,
+      "discountedPrices": {
+        "Carry": 52000,
+        "Improve": 20800,
+        "Wire": 10400,
+        "Furniture": 15600,
+        "Parking": 10400
+      },
+      "estateName": "Meksika",
+      "estatePrice": 1880,
+      "url": "https://img.freepik.com/free-photo/blue-house-with-blue-roof-sky-background_1340-25953.jpg"
+    }
+  ],
+  "Awards": [
+    {
+      "id": "1",
+      "name": "Award 1",
+      "description": "Description of Award 1",
+      "cost": 50,
+      "img": "https://i.pinimg.com/736x/37/68/3b/37683bf3ebe70822a61d4e6df2273aaa.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Award 2",
+      "description": "Description of Award 2",
+      "cost": 75,
+      "img": "https://png.pngtree.com/png-vector/20230225/ourmid/pngtree-best-award-medal-with-rice-or-paddy-symbol-in-gold-and-png-image_6587285.png"
+    }
+  ],
+  "NFT": [
+    [
+      {
+        "id": "1",
+        "name": "NFT 1",
+        "description": "Description for NFT 1",
+        "cost": 150,
+        "img": "https://uxwing.com/wp-content/themes/uxwing/download/internet-network-technology/non-fungible-tokens-nft-icon.png"
+      },
+      {
+        "id": "2",
+        "name": "NFT 2",
+        "description": "Description for NFT 2",
+        "cost": 200,
+        "img": "https://static.vecteezy.com/system/resources/previews/011/419/780/original/3d-illustrations-golden-nft-logo-png.png"
+      }
+    ]
+  ],
+  "Island": [
+    [
+      {
+        "id": 1,
+        "name": "Tropical Island",
+        "description": "A beautiful tropical island with sandy beaches and crystal-clear water.",
+        "cost": 5000000,
+        "img": "https://cmxsapnc.cloudimg.io/v7/https://www.scandlines.com/media/cyplgvy4/image_tropical_islands_03.jpg?func=crop&w=1920&h=1344&gravity=800,450"
+      },
+      {
+        "id": 2,
+        "name": "Volcanic Island",
+        "description": "A stunning volcanic island with unique landscapes and hot springs.",
+        "cost": 3000000,
+        "img": "https://facts.net/wp-content/uploads/2023/08/9-fascinating-facts-about-volcanic-islands-1693101564.jpeg"
+      },
+      {
+        "id": 3,
+        "name": "Private Island",
+        "description": "An exclusive private island offering peace, privacy, and luxury.",
+        "cost": 15000000,
+        "img": "https://na.rdcpix.com/49f876eee1d56056c8acd12319cc5b1bw-c1137581903srd_q80.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Mediterranean Island",
+        "description": "A Mediterranean island with a rich history and beautiful architecture.",
+        "cost": 8000000,
+        "img": "https://hips.hearstapps.com/hmg-prod/images/mediterranean-islands-64a29f7682460.jpg"
+      }
+    ]
+  ]
+}
